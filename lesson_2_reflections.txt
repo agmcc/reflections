@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Creates .git folder- to get git to work...duh
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Commit items in staging area - not wd (sa is bridge between wd and rep)
+	hmmm not sure- try out commit arrangements before finalising?
