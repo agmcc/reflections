@@ -21,3 +21,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	Changes from both merged.  Branch is merged into checked out branch e.g. if checkout master, calling git merge coins will merge coins with master. Master now contains coin commits.  can call git merge coins master or git merge master coins, same.  Not necessary even mention master as master is checked out. BUT if checkout easy-mode and call git merge master coins, then easy-mode, master and coins will all be merged. so ALWAYS checkout branch you want to merge into, THEN call git merge <branch to merge in>
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	auto = easy- good for simple changes e.g. removed or added a line
+	Manual = for complex changes e.g. Origin A, Branch B, Branch C
+	Want to merge C into B. Both C and B edited same line from A, so now 3 versions of line (A, B, C).  when Git tries to merge it will throw confict as doesn't know whether to use B or C version (or keep A).  Opens text editor- shows original (A), Head (current checked out branch- B) and branch to be merged (C). Can then work out what changes B and C made by comparing with A, and then decide whether to use B/C/Combo B+C
