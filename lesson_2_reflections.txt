@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
 
 	Creates .git folder- to get git to work...duh
 
@@ -27,3 +27,5 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 	auto = easy- good for simple changes e.g. removed or added a line
 	Manual = for complex changes e.g. Origin A, Branch B, Branch C
 	Want to merge C into B. Both C and B edited same line from A, so now 3 versions of line (A, B, C).  when Git tries to merge it will throw confict as doesn't know whether to use B or C version (or keep A).  Opens text editor- shows original (A), Head (current checked out branch- B) and branch to be merged (C). Can then work out what changes B and C made by comparing with A, and then decide whether to use B/C/Combo B+C
+
+Name edit check
