@@ -17,3 +17,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	See unreachable branches by looking at parents
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Changes from both merged.  Branch is merged into checked out branch e.g. if checkout master, calling git merge coins will merge coins with master. Master now contains coin commits.  can call git merge coins master or git merge master coins, same.  Not necessary even mention master as master is checked out. BUT if checkout easy-mode and call git merge master coins, then easy-mode, master and coins will all be merged. so ALWAYS checkout branch you want to merge into, THEN call git merge <branch to merge in>
