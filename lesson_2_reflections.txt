@@ -13,3 +13,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 	When trying out experimental features and still want a main version of the game to work on e.g. porting app for web or new language
+
+How do the diagrams help you visualize the branch structure?
+
+	See unreachable branches by looking at parents
