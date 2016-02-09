@@ -21,3 +21,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	Email each other changes- easier /simpler than cmd line? but harder to coordinate changes
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	
+	Working on experiementaal fetures / want to retain working demo.  Not sure if collabs will introduce bug that might damage master? Control- see what changes go in (someone else not just master change suddenly from under you). But more steps involved
